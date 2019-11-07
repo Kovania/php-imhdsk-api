@@ -2,7 +2,7 @@
 
 class Main extends Controller {
 
-	function Index($lang, $city = '0', $zd = '0', $za = '0', $time = 'teraz') {
+	function Index($lang = 'sk', $city = '0', $zd = '0', $za = '0', $time = 'teraz') {
 
 	$url = "https://imhd.sk/".$city."/api/".$lang."/cp-mob-app?op=rp&key=imhd-mob-app-android";
 

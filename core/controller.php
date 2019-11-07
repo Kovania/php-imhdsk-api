@@ -67,7 +67,7 @@ abstract class Controller {
     }
 
 	
-    abstract function Index($lang, $city = '0', $zd = '0', $za = '0', $time = '0');
+    abstract function Index($lang = 'sk', $city = '0', $zd = '0', $za = '0', $time = '0');
 
 
 }
